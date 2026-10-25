@@ -503,5 +503,40 @@
     "web": "Taquilla.com",
     "titulo": "Juegos Nocturnos Impro",
     "url": "https://www.taquilla.com/entradas/juegos-nocturnos-impro?t10cityorder=Madrid"
+  },
+  "fc242c97d0e13f6620d313e1fa9a0e542cfbd99d3d4bb42c602d1514f305163d": {
+    "web": "Taquilla.com",
+    "titulo": "Ópera/Clásica",
+    "url": "https://www.taquilla.com/espectaculos/clasica"
+  },
+  "4db278cbfa2da75c20d36e44a5f844f7dd2b1e4ce1118d880357e0a720300f09": {
+    "web": "Taquilla.com",
+    "titulo": "Valladolid",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/valladolid"
+  },
+  "485bc4e5f3ce349ff89df7a0ec09f8417c9505c9ba889aa4dbd523afabf2832b": {
+    "web": "Taquilla.com",
+    "titulo": "Murcia",
+    "url": "https://www.taquilla.com/espectaculos/murcia"
+  },
+  "761e26b8ff86909d229a533a78ea956a23f0ab940116ad1e7e5777514986fed4": {
+    "web": "Taquilla.com",
+    "titulo": "Oviedo",
+    "url": "https://www.taquilla.com/espectaculos/oviedo"
+  },
+  "b93e53296119ebb4ac0f5df67839e4488f7144905444a288195d9c99edd2bbd4": {
+    "web": "Taquilla.com",
+    "titulo": "San Sebastián",
+    "url": "https://www.taquilla.com/espectaculos/san-sebastian"
+  },
+  "fbb426b028a9bbe953deaa6c4f67fdd33f6a88f6c0bb9f01286077f0ce2fa735": {
+    "web": "Taquilla.com",
+    "titulo": "Valladolid",
+    "url": "https://www.taquilla.com/espectaculos/valladolid"
+  },
+  "22664d31c5417fb35105bbe5bc86860dfdeaea833834efaa580bbc6ff6071780": {
+    "web": "Taquilla.com",
+    "titulo": "Zaragoza",
+    "url": "https://www.taquilla.com/espectaculos/zaragoza"
   }
 }
