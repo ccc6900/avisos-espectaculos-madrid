@@ -1,2 +1,507 @@
-
-{}
+{
+  "c52eba6cfe5ac5f3003194f07fc3439f45492e0d25940c60d666829df2454cf3": {
+    "web": "Taquilla.com",
+    "titulo": "Musicales Madrid",
+    "url": "https://www.taquilla.com/espectaculos/musicales/madrid"
+  },
+  "7c815f984b10951509d9b03fa8261516d1089b8cf07e23c0c0e124a7bbfcd069": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro Madrid",
+    "url": "https://www.taquilla.com/espectaculos/teatro/madrid"
+  },
+  "ba60503a1ff9ca9dfc76d79067ffeb2f91d91d4666116e1ffbcea82ceb733007": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas Circo del Sol",
+    "url": "https://www.taquilla.com/entradas/circo-del-sol"
+  },
+  "3b1b84a299c260efdfd54c95703fb02845beb94099018b67526c300c445f8fb7": {
+    "web": "Taquilla.com",
+    "titulo": "Volver a Espectáculos y teatro",
+    "url": "https://www.taquilla.com/espectaculos"
+  },
+  "868fec6c50e12fbe20f10624117733144a02dc2add282ebb5c71163c24e7a63a": {
+    "web": "Taquilla.com",
+    "titulo": "Volver a Espectáculos y teatro en Madrid",
+    "url": "https://www.taquilla.com/espectaculos/madrid"
+  },
+  "a0f2806940690128a300b27b36dd7a31243beb92bb4a61dbbe371bae750593ac": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en Barcelona",
+    "url": "https://www.taquilla.com/espectaculos/barcelona"
+  },
+  "2df821a216dbbeafa540056b292a0b906a0d3b8906d1800fe31d9427ba84270e": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en Valencia",
+    "url": "https://www.taquilla.com/espectaculos/valencia"
+  },
+  "3e63ce23253eb8706b95b795260e8c22e21a0fc843ed66812542a859557539ef": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en Sevilla",
+    "url": "https://www.taquilla.com/espectaculos/sevilla"
+  },
+  "8d7096eac854b53d0a0be9fa95d7a50e15749610825918bce93c45bbaec37bc2": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en Bilbao",
+    "url": "https://www.taquilla.com/espectaculos/bilbao"
+  },
+  "bb0573b59ca28bf06a18f4751faff1e54b1625a705680c0b41448411eb83c4d7": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en Málaga",
+    "url": "https://www.taquilla.com/espectaculos/malaga"
+  },
+  "91cbd8b90c7a32f6f12de8c7498ce6e8ee45a7ee959ab9f0a77fec5918d6b0b4": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos y teatro en A Coruña",
+    "url": "https://www.taquilla.com/espectaculos/a-coruna"
+  },
+  "5412cdba4929ee522b04f089f55994bf6359c8ad6926417c36df46d31dbcf1b3": {
+    "web": "Taquilla.com",
+    "titulo": "Musicales",
+    "url": "https://www.taquilla.com/espectaculos/musicales"
+  },
+  "6ff44ad316e96f32673f496a29cb5f3fb924ea95940f49a90c91d39bd521aa33": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro",
+    "url": "https://www.taquilla.com/espectaculos/teatro"
+  },
+  "54436920f6bff63a216cd01106a5fb8ec2f096c85c73b48e6604a5aa4a9f43e4": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos"
+  },
+  "ff851e53b3991a5334bdd9e5827e1f54d764dd76034f52160488022db21dbe48": {
+    "web": "Taquilla.com",
+    "titulo": "Magia",
+    "url": "https://www.taquilla.com/espectaculos/magia"
+  },
+  "07cc2650eda3005cbff17332dd76142b1c594a7246d134535290067b91ce20b8": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos para niños",
+    "url": "https://www.taquilla.com/espectaculos/ninos"
+  },
+  "a088c51607ea5eddcf6ccf82173358ea17e8908da0687291f0d3d7df2850fc4d": {
+    "web": "Taquilla.com",
+    "titulo": "Circo",
+    "url": "https://www.taquilla.com/espectaculos/circo"
+  },
+  "514abbf5c85698c107f1c72e4d9e0cb759d990298113c52844c61b55ec79a69f": {
+    "web": "Taquilla.com",
+    "titulo": "Flamenco",
+    "url": "https://www.taquilla.com/espectaculos/flamenco"
+  },
+  "2e6b7a97ea6e49fa21c2211d4f48768c024ffc5f912192d00f1b8345d32b11c0": {
+    "web": "Taquilla.com",
+    "titulo": "Danza y Ballet",
+    "url": "https://www.taquilla.com/espectaculos/danza"
+  },
+  "88c525798e29dcac8efb5cb4a25650a9bb560133335c2de361dc5921ff2114d7": {
+    "web": "Taquilla.com",
+    "titulo": "Otros espectáculos",
+    "url": "https://www.taquilla.com/espectaculos/otros-espectaculos"
+  },
+  "a9dda7dd3e02ac75871a6a049d5ac0b8b825251e01698b31a99ab0d7a7068c04": {
+    "web": "Taquilla.com",
+    "titulo": "La Familia Addams, El Musical",
+    "url": "https://www.taquilla.com/entradas/la-familia-addams"
+  },
+  "090dd9528365c48aa932e95484ddc5eb4353cf003bb08a0f253a4b483b6b0594": {
+    "web": "Taquilla.com",
+    "titulo": "Los chicos del coro, el Musical",
+    "url": "https://www.taquilla.com/entradas/los-chicos-del-coro-el-musical"
+  },
+  "ed956cdb9c823353c645d0c80e6f55cea71b234bdc350966f996b1abb7b67072": {
+    "web": "Taquilla.com",
+    "titulo": "Los Miserables, El Musical",
+    "url": "https://www.taquilla.com/entradas/los-miserables-el-musical"
+  },
+  "5c07ff6d07278a4e05356d8c052b8ae6be71ef7aadb2417a9df9a48d1e1431e7": {
+    "web": "Taquilla.com",
+    "titulo": "Cabaret",
+    "url": "https://www.taquilla.com/entradas/cabaret"
+  },
+  "b5bbab250bf1544f7a7843a13fcb3724ab6728c300366bc5c8d33f30d56ea721": {
+    "web": "Taquilla.com",
+    "titulo": "SIX el Musical",
+    "url": "https://www.taquilla.com/entradas/six-el-musical"
+  },
+  "5d7014d23260383ca221f4c7edbe7ef4813a0b345df7bcca5b5919c28a58b881": {
+    "web": "Taquilla.com",
+    "titulo": "El Alma al Aire, el musical",
+    "url": "https://www.taquilla.com/entradas/el-alma-al-aire-el-musical"
+  },
+  "be9cfe0b77a5a497b818ddfe3af20b3bc29786a883eb27aa335bb4f4dca98d61": {
+    "web": "Taquilla.com",
+    "titulo": "Wicked, El Musical",
+    "url": "https://www.taquilla.com/entradas/wicked-el-musical"
+  },
+  "4931cad4603a6c7f7ed6c7c1f001b04af917b7eeeab620fca1a2976a262dfe32": {
+    "web": "Taquilla.com",
+    "titulo": "We Will Rock You, El musical",
+    "url": "https://www.taquilla.com/entradas/we-will-rock-you-el-musical"
+  },
+  "c5299cd556731e31779433d8ef0f9b5e3f0a8de49daf5e76e9e0c37d1b9bace0": {
+    "web": "Taquilla.com",
+    "titulo": "El Zorro, el Musical",
+    "url": "https://www.taquilla.com/entradas/el-zorro-el-musical"
+  },
+  "f3c1bdfb393a27119d402ec918264f37a80ee705f070a6e6bae3a8a140bd39c4": {
+    "web": "Taquilla.com",
+    "titulo": "El Musical de los 80s-90s",
+    "url": "https://www.taquilla.com/entradas/el-musical-de-los-80s-90s"
+  },
+  "93ed1864228b87f3e41bd3c6697583d258871837cc0a20baae96eabfa318572e": {
+    "web": "Taquilla.com",
+    "titulo": "The Book of Mormon, el musical",
+    "url": "https://www.taquilla.com/entradas/the-book-of-mormon-el-musical"
+  },
+  "fb8e3a7c827714547fd8084d9af049b64af7eef490c51bcf3adf922ad5bc3e17": {
+    "web": "Taquilla.com",
+    "titulo": "Sonrisas y Lágrimas, el Musical",
+    "url": "https://www.taquilla.com/entradas/sonrisas-y-lagrimas-el-musical-by-theatre-properties"
+  },
+  "085ea4f5578650ed5d69c3e26adf59aeabf0d08f926a18497492cfdd3ba8207f": {
+    "web": "Taquilla.com",
+    "titulo": "Mamma Mía! - El musical",
+    "url": "https://www.taquilla.com/entradas/mamma-mia-el-musical"
+  },
+  "c9860aff7026e79b20707db3e65bf1ba54b6caa585e4e867221d897e5d4abd6d": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas Victoria - Teatro Fígaro",
+    "url": "https://www.taquilla.com/entradas/victoria-teatro-figaro"
+  },
+  "1f9e881108b2e66674dedae8f57a4d32dad04e507bccf8bb69d07cd47fad48d1": {
+    "web": "Taquilla.com",
+    "titulo": "La Hora y Media de El Club de la Comedia Madrid",
+    "url": "https://www.taquilla.com/entradas/la-hora-y-media-de-el-club-de-la-comedia-madrid"
+  },
+  "63da8a62d8fcb1076437cd354d442ee6b845a0cbe1e19c7cea19d5b55c7662d9": {
+    "web": "Taquilla.com",
+    "titulo": "Magia por aquí, magia por allá",
+    "url": "https://www.taquilla.com/entradas/magia-por-aqui-magia-por-alla"
+  },
+  "160b28bd39b14a8d918d60777b8201d8799c78b76350c6a096e4bd405e6f0656": {
+    "web": "Taquilla.com",
+    "titulo": "Un, dos, Tres, Magia - Javi Rufo",
+    "url": "https://www.taquilla.com/entradas/un-dos-tres-magia-javi-rufo"
+  },
+  "3b09179c48f7bf5c39e9e2a794af96a0f974dcf6ad9148d3699e3407da78528b": {
+    "web": "Taquilla.com",
+    "titulo": "Anastasia, el Musical - Teatro Salesianos de Madrid",
+    "url": "https://www.taquilla.com/entradas/anastasia-el-musical-teatro-salesianos-de-madrid"
+  },
+  "41bffa6820c2961dfe1daafaa474223b46c7117275e56d77039f215efc34940f": {
+    "web": "Taquilla.com",
+    "titulo": "Los Tres Cerditos - La Curvatura Teatro",
+    "url": "https://www.taquilla.com/entradas/los-tres-cerditos-la-curvatura-teatro"
+  },
+  "11efeabed00f211057fe501e8acdceeadd89c814e13e7abb0b43434035df859d": {
+    "web": "Taquilla.com",
+    "titulo": "Peter Pan, el musical - Teatro Maravillas",
+    "url": "https://www.taquilla.com/entradas/peter-pan-el-musical-teatro-maravillas"
+  },
+  "a254954d71b1eb5b68670bd9c62eac1b9cb5008610b74208545af01ab2d657c8": {
+    "web": "Taquilla.com",
+    "titulo": "Tadeo Jones y la Lámpara Maravillosa - el Musical",
+    "url": "https://www.taquilla.com/entradas/tadeo-jones-y-la-lampara-maravillosa-el-musical"
+  },
+  "42b20bfd17330ac933af5db3e25d0183c392dca289b0d816707d99a927c336dd": {
+    "web": "Taquilla.com",
+    "titulo": "La Gran Aventura de El Pollo Pepe, el Musical",
+    "url": "https://www.taquilla.com/entradas/la-gran-aventura-de-el-pollo-pepe-el-musical"
+  },
+  "cfcb6e1efe18dbb45e97284ee14cbec13f6ff7c3ea4fbcd320503bc241c3f8ef": {
+    "web": "Taquilla.com",
+    "titulo": "Flipomagia",
+    "url": "https://www.taquilla.com/entradas/flipomagia"
+  },
+  "9a475a66c2a2b7f9f50a4703cd1f0d79d714eda9fb7ea8ae1f2d233160be45fa": {
+    "web": "Taquilla.com",
+    "titulo": "La Bella y La Bestia - La Barbarie Teatro Musical",
+    "url": "https://www.taquilla.com/entradas/la-bella-y-la-bestia-la-barbarie-teatro-musical"
+  },
+  "c192d8e6e855e0780043a6adf14b9b06bf946489e9f07e86bf6da208c0e067a8": {
+    "web": "Taquilla.com",
+    "titulo": "Magia kids",
+    "url": "https://www.taquilla.com/entradas/magia-kids"
+  },
+  "fca0ebc40fd4ac6f555e5d0ffea8ceef0edfcd5c797d7c567eb803fc847b251c": {
+    "web": "Taquilla.com",
+    "titulo": "Circo Alegría: Gran Circo del Agua",
+    "url": "https://www.taquilla.com/entradas/circo-alegria"
+  },
+  "9076728bcfd17483cd05448f3bef707dcbe61a0fcc0431e84ea4ba818fad43dd": {
+    "web": "Taquilla.com",
+    "titulo": "Gran Circo Alaska",
+    "url": "https://www.taquilla.com/entradas/gran-circo-alaska"
+  },
+  "23c02d78cbb8019addcfc8caf85379aee192a87c2c76a42862610beadefd501f": {
+    "web": "Taquilla.com",
+    "titulo": "Circo Quirós",
+    "url": "https://www.taquilla.com/entradas/circo-quiros"
+  },
+  "e6671646a08f20cf278ef64296a12616545ee991bf36f8c3d4f8cb3ce3b4c6ee": {
+    "web": "Taquilla.com",
+    "titulo": "PrisionIA. Circo de los Horrores",
+    "url": "https://www.taquilla.com/entradas/circo-de-los-horrores"
+  },
+  "55ca86503668f6cdb92a24ed64cfbc5cc5a071a3c0400666f182ed402e52abc0": {
+    "web": "Taquilla.com",
+    "titulo": "Circo Raluy Legacy",
+    "url": "https://www.taquilla.com/entradas/circo-raluy-legacy-"
+  },
+  "6dba80a1f4296970aa770c53e6ac4af622b6a06f1f65938387993806495e32bc": {
+    "web": "Taquilla.com",
+    "titulo": "Gran Circo Holiday",
+    "url": "https://www.taquilla.com/entradas/gran-circo-holiday"
+  },
+  "19b9581217c50b346e13a1e2d8da8774bf041bc5e3ea7be229bfd7c5b9404595": {
+    "web": "Taquilla.com",
+    "titulo": "Circo Encantado",
+    "url": "https://www.taquilla.com/entradas/circo-encantado"
+  },
+  "59436c7bfb4c1b93065426312d5df4aba6878689ed1a3a7c12ad72f52e37bc96": {
+    "web": "Taquilla.com",
+    "titulo": "Circo Rebelde de Navidad",
+    "url": "https://www.taquilla.com/entradas/circo-rebelde-de-navidad"
+  },
+  "71eba081194e2e4f752fd4ccde1bafc58651061a218382325aee4af23c06ef5d": {
+    "web": "Taquilla.com",
+    "titulo": "Festival Internacional de Circo de Zaragoza",
+    "url": "https://www.taquilla.com/entradas/festival-internacional-de-circo-de-zaragoza"
+  },
+  "3e0e281d69459e9a2a4d203a8be75a6b1e40108638e3a599930dc6ece6e99ea6": {
+    "web": "Taquilla.com",
+    "titulo": "Tablao Flamenco la Carmela",
+    "url": "https://www.taquilla.com/entradas/tablao-flamenco-la-carmela"
+  },
+  "55a505ae2d48d4088cfedd3f7df2777c8c70590d77ce4aa47e4a4a16baaf260a": {
+    "web": "Taquilla.com",
+    "titulo": "Gran gala flamenco",
+    "url": "https://www.taquilla.com/entradas/gran-gala-flamenco"
+  },
+  "05e7a5bb597eb9966ca146ea76f7c5a0415d9ae40abc983c5f244580aa91c7a6": {
+    "web": "Taquilla.com",
+    "titulo": "La Cueva de Lola Show Flamenco",
+    "url": "https://www.taquilla.com/entradas/la-cueva-de-lola-show-flamenco"
+  },
+  "b7dcc6ccd7cd5da416dd46df6b316be73de0d2dc815d9cdc74c4d9d8c1f23364": {
+    "web": "Taquilla.com",
+    "titulo": "El lago de los cisnes – Ballet Clásico Internacional",
+    "url": "https://www.taquilla.com/entradas/el-lago-de-los-cisnes--ballet-clasico-internacional"
+  },
+  "161136b0877c288d08beffde9e0b82fe84e60590b8e4f3eae5daf062fada17b0": {
+    "web": "Taquilla.com",
+    "titulo": "El Lago de los Cisnes - Imperial Heritage Ballet",
+    "url": "https://www.taquilla.com/entradas/el-lago-de-los-cisnes-imperial-heritage-ballet"
+  },
+  "10825e479566eb17cc4d51353a150422febb95c40de9db8a453408cee6a053cf": {
+    "web": "Taquilla.com",
+    "titulo": "El Lago de los Cisnes - International Ballet Company",
+    "url": "https://www.taquilla.com/entradas/el-lago-de-los-cisnes-international-ballet-company"
+  },
+  "035f39b15f7cb5da53ec7bbdb0bc3f768868692a4e5f251f10815a2d1147710e": {
+    "web": "Taquilla.com",
+    "titulo": "Don Quijote, el Ballet",
+    "url": "https://www.taquilla.com/entradas/don-quijote-el-ballet"
+  },
+  "c091c5ed68ef684445779424585e31f26a3336c41b9477607ead901920a3ba6c": {
+    "web": "Taquilla.com",
+    "titulo": "Padre Nuestro - Migro Danza",
+    "url": "https://www.taquilla.com/entradas/padre-nuestro-migro-danza"
+  },
+  "497f73ff461394f09ee53d18e00adf81b48ff128f04f02313ca8e9519bcc7614": {
+    "web": "Taquilla.com",
+    "titulo": "El Ranchito - Espectáculo Ecuestre",
+    "url": "https://www.taquilla.com/entradas/el-ranchito-espectaculo-ecuestre"
+  },
+  "63cb3d22b8ffd72d8b8838f375e4fe199f5f16e58229338f77a6fec6f3150bdf": {
+    "web": "Taquilla.com",
+    "titulo": "Elixir - Erotic Cabaret Show",
+    "url": "https://www.taquilla.com/entradas/elixir-erotic-cabaret-show"
+  },
+  "931096c01ae0c593053a58ffe4adf590f42c50d879812011291d16b42c2a3615": {
+    "web": "Taquilla.com",
+    "titulo": "Extasis, Erotic Cabaret Show",
+    "url": "https://www.taquilla.com/entradas/extasis-erotic-cabaret-show"
+  },
+  "8766377890c3639ed0d1a0f4fa1f90de07455779b2af613be63eddf9659e72eb": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en Barcelona",
+    "url": "https://www.taquilla.com/espectaculos/teatro/barcelona"
+  },
+  "c7e5a5b581da3dcedfaed5b3bf83e452487483d325e9e3d73dca785e6b0d22c0": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en Valencia",
+    "url": "https://www.taquilla.com/espectaculos/teatro/valencia"
+  },
+  "e0261c214944a0e5fb8a1d311832587e622ad309842c0cace53b2d2bab32071e": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en Sevilla",
+    "url": "https://www.taquilla.com/espectaculos/teatro/sevilla"
+  },
+  "ab2efb1569c704e011f5a17b21caf2057bcdec0c79eeb4e630044239ccbafd0e": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en Bilbao",
+    "url": "https://www.taquilla.com/espectaculos/teatro/bilbao"
+  },
+  "474d68a77cd99b39d7d2fc431cbe4db14ae35330985169d924cd25b2c405cde5": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en Málaga",
+    "url": "https://www.taquilla.com/espectaculos/teatro/malaga"
+  },
+  "94b87c1143d22fcb166840fb93ffadfa2828b31e60a00d64359081ba61ebb8f0": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro en A Coruña",
+    "url": "https://www.taquilla.com/espectaculos/teatro/a-coruna"
+  },
+  "98b13fbdb079ec9af575824bb7c9ee046f31a33d2a2adf3a1e7f923a5c779f6b": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas Drácula, una comedia terrorífica",
+    "url": "https://www.taquilla.com/entradas/dracula-una-comedia-terrorifica"
+  },
+  "0aba3e5d211f977d4f2e6bdf56586cf7afd34d48b93feccddef62814ef8474e7": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas Orgasmos, la comedia",
+    "url": "https://www.taquilla.com/entradas/orgasmos-la-comedia"
+  },
+  "8b4ac152743f6acb8a1465ba8155dce27b8d0ea4de3df300b0245b9f561165d1": {
+    "web": "Taquilla.com",
+    "titulo": "La Bella y la Bestia, el musical",
+    "url": "https://www.taquilla.com/entradas/la-bella-y-la-bestia-el-musical-de-stage"
+  },
+  "303de7661c5b49a955579f83a6cbddce936d9333775d8a20b8de44ba883c25d2": {
+    "web": "Taquilla.com",
+    "titulo": "Microteatro Por Dinero",
+    "url": "https://www.taquilla.com/madrid/microteatro-por-dinero-madrid"
+  },
+  "117d90ceb8b7cab5c7a246c9db1358595ef8688e4abd1c3c023d12e93aab1443": {
+    "web": "Taquilla.com",
+    "titulo": "Improshow",
+    "url": "https://www.taquilla.com/entradas/improshow"
+  },
+  "3734eb6e0a8e62d6da169b2589bcb189562717b03908ccdfc89c44a95650101d": {
+    "web": "Taquilla.com",
+    "titulo": "Russian Classical Ballet",
+    "url": "https://www.taquilla.com/entradas/russian-classical-ballet-"
+  },
+  "17a4ab1cca7786d3d57031173673db7cc16cbcaede2c05d75e213cf5e3b68f24": {
+    "web": "Taquilla.com",
+    "titulo": "Festival Internacional de Teatro Clásico de Mérida",
+    "url": "https://www.taquilla.com/entradas/festival-de-teatro-clasico-de-merida"
+  },
+  "668b95a19e185b207027a260f38b350981db7a51d47c13f6f5e13cfa477c203f": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro Quevedo",
+    "url": "https://www.taquilla.com/madrid/teatro-quevedo-madrid"
+  },
+  "252624a9c6301b68615829646531195262889a36f909b23098e4c67d796b8149": {
+    "web": "Taquilla.com",
+    "titulo": "Teatro Victoria",
+    "url": "https://www.taquilla.com/madrid/teatro-victoria-madrid"
+  },
+  "06f0696c8a8679a16ad5b46ff47b2325b2ecfba587a852a71cc62e11f52151b4": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos de Improvisación",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/madrid"
+  },
+  "8d33d3ac6c1a11e8c9704ceb655c15fe05493185463cb7b2527e00a5540026c1": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en Barcelona",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/barcelona"
+  },
+  "fbfe8d56930d3797df9f05bdf202253f94db2a721cd9ec2958f6e15b64f290c8": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en Valencia",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/valencia"
+  },
+  "3c8b752bdcd34b2b468f7706795fd34a975b562796fbab06ad8dbd3f4abfdec5": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en Sevilla",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/sevilla"
+  },
+  "e60a28e97bc39f613f87f755accb6ad6972504324064eb904289f6b35eacfc29": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en Bilbao",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/bilbao"
+  },
+  "054dba70285adce0f3febb5f14cab7539dc6fdde2134d0377738571d77b57330": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en Málaga",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/malaga"
+  },
+  "dca419846c4ed69d5282326365f000bf46c3a33448c28d8d2904ecc228fdc3a0": {
+    "web": "Taquilla.com",
+    "titulo": "Humor/Monólogos en A Coruña",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos/a-coruna"
+  },
+  "96ce4508f8cc29ae23250c6b3c3a1c0fce599acfd32b4ee818c07275813165f0": {
+    "web": "Taquilla.com",
+    "titulo": "Monólogos en Madrid",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos?t10city=Madrid&t10tag=13&t10cityorder=Madrid"
+  },
+  "b20771d6d67c8c8981a6f93c3de3ad19097040fee88c48f17c3498823fbbd7b9": {
+    "web": "Taquilla.com",
+    "titulo": "La Hora y Media de El Club de la Comedia Madrid",
+    "url": "https://www.taquilla.com/entradas/la-hora-y-media-de-el-club-de-la-comedia-madrid?t10cityorder=Madrid"
+  },
+  "803e2ccc6172725e7a8441c1a14ebc7302ac2e99c34d8e1eedd3802bc02418bf": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos de humor en Madrid",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos?t10city=Madrid&t10tag=14&t10cityorder=Madrid"
+  },
+  "044bd2e1c52d713c16fe0e9a95fcce89cd7f30e44ba29ac703db2bdac30db570": {
+    "web": "Taquilla.com",
+    "titulo": "Histeriotipos, Sexo Histérico. Comedia para Parejas",
+    "url": "https://www.taquilla.com/entradas/histeriotipos-sexo-histerico-comedia-para-parejas?t10cityorder=Madrid"
+  },
+  "a989370910b14503dc4e9975646f50a9c6fb08c0f40dea1617d268efe78c22b1": {
+    "web": "Taquilla.com",
+    "titulo": "Titanic, un Espectáculo Inmersivo",
+    "url": "https://www.taquilla.com/entradas/titanic-un-espectaculo-inmersivo?t10cityorder=Madrid"
+  },
+  "e56301dbc68a7a07b8cf45eb154d33eeb8e666b17bc6f95b505f5f251721ada8": {
+    "web": "Taquilla.com",
+    "titulo": "Espectáculos de Improvisación en Madrid",
+    "url": "https://www.taquilla.com/espectaculos/humor-monologos?t10city=Madrid&t10tag=16&t10cityorder=Madrid"
+  },
+  "cc7c07827b3a042dc935ae17998ba4938ac91d683978b4482cf35361fb79e752": {
+    "web": "Taquilla.com",
+    "titulo": "Las Guerras de Improvisación Reino de Calamburia",
+    "url": "https://www.taquilla.com/entradas/las-guerras-de-improvisacion-reino-de-calamburia?t10cityorder=Madrid"
+  },
+  "973438a0b8bc6fd414677dc4a93c8778b04d482bbd577354c4c896edd822b9af": {
+    "web": "Taquilla.com",
+    "titulo": "ImproMadrid",
+    "url": "https://www.taquilla.com/entradas/impromadrid?t10cityorder=Madrid"
+  },
+  "910f1f56936487eddce2d84e5ebfe49f4f70f6311924fb3d856bebea5e2234e6": {
+    "web": "Taquilla.com",
+    "titulo": "Cua Improvisación Teatral",
+    "url": "https://www.taquilla.com/entradas/cua-improvisacion-teatral?t10cityorder=Madrid"
+  },
+  "bac513b4c94c81f526af6d91c3055e654bc0078af2743620de158ae7237d8fc9": {
+    "web": "Taquilla.com",
+    "titulo": "Jlobo, la Comedia que Siempre Llega",
+    "url": "https://www.taquilla.com/entradas/jlobo-la-comedia-que-siempre-llega?t10cityorder=Madrid"
+  },
+  "8d0fa81279434d4f10fa64c3eeb63c62c0e8a68dca8e3b222ebe8ccb1e1fc299": {
+    "web": "Taquilla.com",
+    "titulo": "Impro Impar Show",
+    "url": "https://www.taquilla.com/entradas/impro-impar-show?t10cityorder=Madrid"
+  },
+  "6720723cab33d2a53d167e6250873055f7a849f85cf1adfd8f856e6c66c2d376": {
+    "web": "Taquilla.com",
+    "titulo": "La Cocina de Impro",
+    "url": "https://www.taquilla.com/entradas/la-cocina-de-impro?t10cityorder=Madrid"
+  },
+  "f2df45adf518d8088a04f3aa1d027b21d2afd9663239b2715f5e55c2e0694967": {
+    "web": "Taquilla.com",
+    "titulo": "Improcafé Show",
+    "url": "https://www.taquilla.com/entradas/improcafe-show?t10cityorder=Madrid"
+  },
+  "676ccfcb661dc8fe0903ba96afd86460024551982e2d37f3895a5032a60fdf48": {
+    "web": "Taquilla.com",
+    "titulo": "Juegos Nocturnos Impro",
+    "url": "https://www.taquilla.com/entradas/juegos-nocturnos-impro?t10cityorder=Madrid"
+  }
+}
