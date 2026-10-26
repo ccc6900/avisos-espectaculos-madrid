@@ -22,7 +22,7 @@ CONFIG_VERSION = 2
 
 PAGINAS = {
     "Atrápalo": [
-        "https://www.atrapalo.com/entradas/madrid/madrid/teatro-y-danza/",
+        "https://www.atrapalo.com/entradas/madrid/teatro-y-danza/",
     ],
     "Taquilla.com": [
         "https://www.taquilla.com/espectaculos/teatro/madrid",
@@ -301,7 +301,7 @@ def consultar_web(portal, urls):
     reintentos = Retry(
         total=1,
         connect=1,
-        read=1,
+        read=0,
         status=1,
         backoff_factor=1,
         status_forcelist=[429, 500, 502, 503, 504],
@@ -315,13 +315,19 @@ def consultar_web(portal, urls):
     for pagina in urls:
         print(f"[CONSULTA] {portal}: {pagina}")
         try:
-            timeout = (10, 35) if portal == "Entradas.com" else (12, 30)
+            timeout = (8, 15) if portal == "Entradas.com" else (12, 30)
             respuesta = sesion.get(pagina, timeout=timeout)
             respuesta.raise_for_status()
             if "html" not in respuesta.headers.get("Content-Type", "").lower():
                 print("[AVISO] La respuesta no es HTML.")
                 continue
             respuesta.encoding = respuesta.apparent_encoding or respuesta.encoding
+            # No tratar las páginas anti-bot como consultas válidas sin resultados.
+            titulo_respuesta = BeautifulSoup(respuesta.text, "html.parser").title
+            titulo_respuesta = normalizar_texto(titulo_respuesta.get_text()) if titulo_respuesta else ""
+            if "client challenge" in titulo_respuesta.lower() or "captcha" in titulo_respuesta.lower():
+                print(f"[BLOQUEO] {portal} ha devuelto una página de protección ({titulo_respuesta}); no se considera una consulta válida.")
+                continue
             encontrados = extraer_eventos(respuesta.text, respuesta.url, portal)
             paginas_ok += 1
             eventos.update(encontrados)
