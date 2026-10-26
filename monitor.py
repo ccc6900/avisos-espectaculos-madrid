@@ -18,7 +18,7 @@ MAX_EVENTOS_POR_WEB = 800
 
 # Solo páginas de categorías filtradas para Madrid. No se usa la portada
 # genérica de Taquilla porque mezcla ciudades.
-CONFIG_VERSION = 2
+CONFIG_VERSION = 3
 
 PAGINAS = {
     "Atrápalo": [
@@ -31,6 +31,9 @@ PAGINAS = {
     "Entradas.com": [
         "https://www.entradas.com/city/madrid-370/this-month/",
         "https://www.entradas.com/city/madrid-370/teatro-84/",
+    ],
+    "Arts Madrid": [
+        "https://www.artsmadrid.com/es/agenda/teatro-danza",
     ],
 }
 
