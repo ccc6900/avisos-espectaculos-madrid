@@ -9,6 +9,8 @@ from email.message import EmailMessage
 from urllib.parse import urljoin, urldefrag, urlparse
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 
 HISTORIAL = Path("usados.json")
@@ -152,6 +154,8 @@ def ubicacion_madrid(texto, url, portal):
 
 def extraer_eventos(html, pagina, portal):
     soup = BeautifulSoup(html, "html.parser")
+    # Conservar los datos estructurados antes de retirar scripts.
+    jsonld_scripts = [s.get_text(" ", strip=True) for s in soup.find_all("script", type="application/ld+json")]
     for tag in soup(["script", "style", "noscript", "svg", "nav", "footer", "header"]):
         tag.decompose()
 
@@ -180,6 +184,42 @@ def extraer_eventos(html, pagina, portal):
             "url": href,
             "contexto": contexto[:900],
         }
+
+    # Extraer eventos publicados en JSON-LD por el propio portal.
+    def recorrer_jsonld(obj):
+        if isinstance(obj, dict):
+            tipos = obj.get("@type", [])
+            if isinstance(tipos, str):
+                tipos = [tipos]
+            if any(str(t).lower() == "event" for t in tipos):
+                nombre = normalizar_texto(obj.get("name", ""))
+                enlace = obj.get("url", "")
+                if isinstance(enlace, dict):
+                    enlace = enlace.get("@id", "")
+                if isinstance(enlace, str) and enlace and nombre:
+                    lugar = obj.get("location", {})
+                    lugar_txt = ""
+                    if isinstance(lugar, dict):
+                        lugar_txt = normalizar_texto(lugar.get("name", ""))
+                        direccion = lugar.get("address", {})
+                        if isinstance(direccion, dict):
+                            lugar_txt += " " + normalizar_texto(direccion.get("addressLocality", ""))
+                        elif isinstance(direccion, str):
+                            lugar_txt += " " + direccion
+                    else:
+                        lugar_txt = normalizar_texto(lugar)
+                    guardar_evento(nombre, enlace, f"{nombre} {lugar_txt} Madrid")
+            for valor in obj.values():
+                recorrer_jsonld(valor)
+        elif isinstance(obj, list):
+            for valor in obj:
+                recorrer_jsonld(valor)
+
+    for contenido_jsonld in jsonld_scripts:
+        try:
+            recorrer_jsonld(json.loads(contenido_jsonld))
+        except (json.JSONDecodeError, TypeError, ValueError):
+            continue
 
     # Primera pasada: fichas enlazadas desde encabezados de las tarjetas.
     for heading in soup.find_all(["h2", "h3", "h4"]):
@@ -257,12 +297,25 @@ def extraer_eventos(html, pagina, portal):
 def consultar_web(portal, urls):
     sesion = requests.Session()
     sesion.headers.update(CABECERAS)
+    # Un reintento para fallos temporales de conexión o del servidor.
+    reintentos = Retry(
+        total=1,
+        connect=1,
+        read=1,
+        status=1,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+        raise_on_status=False,
+    )
+    sesion.mount("https://", HTTPAdapter(max_retries=reintentos))
+    sesion.mount("http://", HTTPAdapter(max_retries=reintentos))
     eventos = {}
     paginas_ok = 0
     for pagina in urls:
         print(f"[CONSULTA] {portal}: {pagina}")
         try:
-            timeout = (8, 15) if portal == "Entradas.com" else (12, 30)
+            timeout = (10, 35) if portal == "Entradas.com" else (12, 30)
             respuesta = sesion.get(pagina, timeout=timeout)
             respuesta.raise_for_status()
             if "html" not in respuesta.headers.get("Content-Type", "").lower():
@@ -273,6 +326,17 @@ def consultar_web(portal, urls):
             paginas_ok += 1
             eventos.update(encontrados)
             print(f"[OK] Fichas de eventos de Madrid: {len(encontrados)}")
+            if portal == "Atrápalo" and not encontrados:
+                html_soup = BeautifulSoup(respuesta.text, "html.parser")
+                enlaces_ficha = [
+                    a.get("href", "") for a in html_soup.find_all("a", href=True)
+                    if "/entradas/" in a.get("href", "").lower()
+                ]
+                titulo_pagina = normalizar_texto(html_soup.title.get_text()) if html_soup.title else "sin título"
+                print(
+                    f"[DIAGNÓSTICO] Atrápalo: HTML={len(respuesta.text)} caracteres; "
+                    f"título={titulo_pagina}; enlaces con /entradas/={len(enlaces_ficha)}"
+                )
             time.sleep(1)
         except requests.RequestException as exc:
             print(f"[ERROR] No se pudo consultar {pagina}: {exc}")
