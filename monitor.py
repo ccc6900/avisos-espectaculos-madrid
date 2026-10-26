@@ -44,6 +44,8 @@ GENERICAS_TAQUILLA = {
     "/espectaculos/teatro/madrid",
     "/espectaculos/humor-monologos",
     "/espectaculos/humor-monologos/madrid",
+    "/espectaculos/danza",
+    "/espectaculos/danza/madrid",
     "/espectaculos/danza-ballet",
     "/espectaculos/danza-ballet/madrid",
     "/espectaculos/circo", "/espectaculos/circo/madrid",
@@ -94,7 +96,7 @@ def es_url_generica(url, portal):
         # que también usan la forma /espectaculos/nombre-del-evento.
         segmentos = [s for s in ruta.split("/") if s]
         categorias = {
-            "teatro", "humor-monologos", "danza-ballet", "circo",
+            "teatro", "humor-monologos", "danza", "danza-ballet", "circo",
             "musicales", "magia", "espectaculos-para-ninos", "flamenco",
             "opera-clasica", "otros-espectaculos", "actividades",
         }
