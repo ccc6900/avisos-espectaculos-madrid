@@ -90,13 +90,18 @@ def es_url_generica(url, portal):
     if portal == "Taquilla.com":
         if ruta in GENERICAS_TAQUILLA:
             return True
-        # Rechazar enlaces de categoría de la forma /espectaculos/<categoria>
-        # o /espectaculos/<categoria>/madrid.
+        # Rechazar categorías conocidas, pero permitir fichas concretas
+        # que también usan la forma /espectaculos/nombre-del-evento.
         segmentos = [s for s in ruta.split("/") if s]
+        categorias = {
+            "teatro", "humor-monologos", "danza-ballet", "circo",
+            "musicales", "magia", "espectaculos-para-ninos", "flamenco",
+            "opera-clasica", "otros-espectaculos", "actividades",
+        }
         if segmentos and segmentos[0] == "espectaculos":
-            if len(segmentos) <= 2:
+            if len(segmentos) == 2 and segmentos[1] in categorias:
                 return True
-            if len(segmentos) == 3 and segmentos[-1] == "madrid":
+            if len(segmentos) == 3 and segmentos[1] in categorias and segmentos[-1] == "madrid":
                 return True
     if portal == "Atrápalo":
         if ruta in {"/entradas", "/entradas/madrid/teatro-y-danza"}:
