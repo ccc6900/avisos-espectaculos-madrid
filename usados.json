@@ -1034,15 +1034,15 @@
   },
   "ca0098033fb0b44918c88b77eff7eeec47bcebeef9ff90e06b2a92a0c681ad08": {
     "web": "Atrápalo",
-    "titulo": "Raúl Massana - Monólogos en familia",
+    "titulo": "En Ocasiones veo a Umberto",
     "url": "https://www.atrapalo.com/entradas/teatro-sofia_l37900",
-    "contexto": "Raúl Massana - Monólogos en familia Teatro Sofía Teatro Sofía (Madrid) Teatro para niños 08 nov al 03 ene 80 minutos Castellano Familiar"
+    "contexto": "Teatro solidario Teatro solidario En Ocasiones veo a Umberto Teatro Sofía Teatro Sofía (Madrid) Comedia 05 nov al 10 ene 90 minutos Castellano Adultos"
   },
   "b1c2e41f688e5e8c411108696880e2cf1dcd00f650407a93dd032b2b91f82a6f": {
     "web": "Atrápalo",
-    "titulo": "1, 2, 3... ¡Magia! - Javi Rufo",
+    "titulo": "Noche de chicas",
     "url": "https://www.atrapalo.com/entradas/pequeno-teatro-gran-via_l1410",
-    "contexto": "1, 2, 3... ¡Magia! - Javi Rufo Pequeño Teatro Gran Vía Pequeño Teatro Gran Vía (Madrid) Teatro para niños 07 nov al 10 ene 75 minutos Castellano Familiar"
+    "contexto": "Noche de chicas Pequeño Teatro Gran Vía Pequeño Teatro Gran Vía (Madrid) Comedia 20 nov al 18 jun 90 minutos Castellano Adultos"
   },
   "854d3383acc700113d2deed7c4597e2a24d669ec8c32ea077e96f025ad908420": {
     "web": "Atrápalo",
@@ -1186,7 +1186,7 @@
     "web": "Atrápalo",
     "titulo": "Emociones: El espectáculo flamenco más visto de Madrid",
     "url": "https://www.atrapalo.com/entradas/teatro-flamenco-madrid_l28743",
-    "contexto": "Emociones: El espectáculo flamenco más visto de Madrid Teatro Flamenco Madrid Teatro Flamenco Madrid (Madrid) Danza 29 oct al 31 dic 60 minutos sin descanso Español Para todas las edades"
+    "contexto": "Emociones: El espectáculo flamenco más visto de Madrid Teatro Flamenco Madrid Teatro Flamenco Madrid (Madrid) Danza 05 nov al 31 dic 60 minutos sin descanso Español Para todas las edades"
   },
   "69fc342fd4d100f88b2c0bf9369218edbc3c4780e51aa452f7248d689753e393": {
     "web": "Atrápalo",
@@ -1601,5 +1601,11 @@
     "titulo": "Anónimos - cía Rauxa",
     "url": "https://www.taquilla.com/entradas/anonimos-cia-rauxa",
     "contexto": "El 06-11-2026 Anónimos - cía Rauxa Desde 12,00€ +INFO"
+  },
+  "59a419c0c4a9076c92c4e6d0dfe498e814f1003e7e792650ed29a2d165df3ede": {
+    "web": "Atrápalo",
+    "titulo": "Oferta exclusiva",
+    "url": "https://www.atrapalo.com/entradas/clap_e4940468",
+    "contexto": "Oferta exclusiva Tiempo restante para que finalice la promoción DÍAS HORAS MIN SEG 15% 9.6 Extraordinario 189 opiniones 15% Teatro solidario Teatro solidario Clap Teatro Sofía Teatro Sofía (Madrid) Impro 06 nov al 09 ene Adultos Reservar desde 18€ Ahorra 2,70€ 15,30€ +1,20€ gastos gestión"
   }
 }
