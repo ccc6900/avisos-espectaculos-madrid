@@ -711,7 +711,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas Cluedo en Vivo",
     "url": "https://www.taquilla.com/entradas/cluedo-en-vivo",
-    "contexto": "Del 16-11-2026 al 31-03-2027 Entradas Cluedo en Vivo Desde 10,00€ +INFO"
+    "contexto": "Del 17-11-2026 al 22-05-2027 Entradas Cluedo en Vivo Desde 10,00€ +INFO"
   },
   "8a7ae01df1f74d976b2c27c033a966520232e1c7f7088fa06c1269a498fdce57": {
     "web": "Taquilla.com",
@@ -771,7 +771,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas Cluedo 1920: Los cadáveres no hablan",
     "url": "https://www.taquilla.com/entradas/cluedo-1920-los-cadaveres-no-hablan",
-    "contexto": "Del 05-11-2026 al 31-01-2027 Entradas Cluedo 1920: Los cadáveres no hablan Desde 17,00€ +INFO"
+    "contexto": "Del 19-11-2026 al 31-01-2027 Entradas Cluedo 1920: Los cadáveres no hablan Desde 17,00€ +INFO"
   },
   "7dd24bf485cd5c97ac9fd8e019321c3a489bacdd0d7e782ed85a9c5a925be412": {
     "web": "Taquilla.com",
@@ -1504,7 +1504,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas André y Dorine",
     "url": "https://www.taquilla.com/entradas/andre-y-dorine",
-    "contexto": "Del 18-11-2026 al 29-11-2026 Entradas André y Dorine Desde 20,00€ +INFO"
+    "contexto": "Del 18-11-2026 al 29-11-2026 Entradas André y Dorine Desde 15,00€ +INFO"
   },
   "f199954e69f53a74e3b57bf1b4bcc6a50efdf1668b7d9eee4e76904f5b77417f": {
     "web": "Taquilla.com",
@@ -1612,7 +1612,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas Un Poyo Rojo",
     "url": "https://www.taquilla.com/entradas/un-poyo-rojo",
-    "contexto": "Del 16-11-2026 al 25-04-2027 Entradas Un Poyo Rojo Desde 10,50€ +INFO"
+    "contexto": "Del 17-11-2026 al 25-04-2027 Entradas Un Poyo Rojo Desde 10,50€ +INFO"
   },
   "23be406628b9a08b2c090708686bc73462dd51f934be77e6bb83389bbed7d2b5": {
     "web": "Taquilla.com",
@@ -1691,5 +1691,17 @@
     "titulo": "Entradas Mi Hijo Sólo Camina un Poco más Lento",
     "url": "https://www.taquilla.com/entradas/mi-hijo-solo-camina-un-poco-mas-lento",
     "contexto": "Del 22-11-2026 al 20-12-2026 Entradas Mi Hijo Sólo Camina un Poco más Lento Desde 17,00€ +INFO"
+  },
+  "68779dd252166592781bdf28e863d5d81d1cad98973e0216c38ec2e6ad36331f": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas La Saga, de Magüi Mira",
+    "url": "https://www.taquilla.com/entradas/la-saga-de-magui-mira",
+    "contexto": "Del 24-02-2027 al 04-04-2027 Entradas La Saga, de Magüi Mira Desde 18,00€ +INFO"
+  },
+  "3820b7e24c6929815c37e56793c973925798be2d96edeb7db8bbda7a2f83f2c9": {
+    "web": "Taquilla.com",
+    "titulo": "Exe Convention Plaza Madrid",
+    "url": "https://www.taquilla.com/madrid/exe-convention-plaza-madrid",
+    "contexto": "Exe Convention Plaza Madrid Ver Cartelera +INFO"
   }
 }
