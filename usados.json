@@ -603,7 +603,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas Rafael Álvarez, El Brujo",
     "url": "https://www.taquilla.com/entradas/rafael-alvarez-el-brujo",
-    "contexto": "Del 23-11-2026 al 13-06-2027 Entradas Rafael Álvarez, El Brujo Desde 13,00€ +INFO"
+    "contexto": "Del 24-11-2026 al 13-06-2027 Entradas Rafael Álvarez, El Brujo Desde 13,00€ +INFO"
   },
   "d6afc55d3eda009181e52e1184f5a98c4fc8c225328f82e4b6cdb3d293634697": {
     "web": "Taquilla.com",
@@ -711,7 +711,7 @@
     "web": "Taquilla.com",
     "titulo": "Entradas Cluedo en Vivo",
     "url": "https://www.taquilla.com/entradas/cluedo-en-vivo",
-    "contexto": "Del 23-11-2026 al 22-05-2027 Entradas Cluedo en Vivo Desde 10,00€ +INFO"
+    "contexto": "Del 24-11-2026 al 22-05-2027 Entradas Cluedo en Vivo Desde 10,00€ +INFO"
   },
   "8a7ae01df1f74d976b2c27c033a966520232e1c7f7088fa06c1269a498fdce57": {
     "web": "Taquilla.com",
@@ -1706,9 +1706,9 @@
   },
   "4aa5de86c07133001b3deaae9989e5588caafcf9dd206d32ad3fb0f0f58f540d": {
     "web": "Taquilla.com",
-    "titulo": "Coro de Estancias x Ana Almagro",
+    "titulo": "Tango Show Baile de los Campeones",
     "url": "https://www.taquilla.com/entradas/tango-show-baile-de-los-campeones",
-    "contexto": "Madrid Del 28-11-2026 al 05-12-2026 La Odisea con Jesús Torres Desde 15,00€ +INFO Madrid Del 18-02-2027 al 21-02-2027 Momenta - Sydney Dance Company Desde 9,00€ +INFO Madrid Del 18-12-2026 al 20-12-2026 Angelical - María Jurado Desde 7,00€ +INFO Madrid Del 09-12-2026 al 02-05-2027 Ballet Español de la Comunidad de Madrid Desde 9,00€ +INFO Madrid Del 19-01-2027 al 24-01-2027 L’Ombre - Cía. Blanca Li Desde 16,00€ +INFO Madrid Del 02-12-2026 al 27-01-2027 Microdanzas 4.0 - Flamante Danza Desde 10,00€ +INFO Madrid Del 20-12-2026 al 14-03-2027 Roxy & Fred Desde 15,00€ +INFO Madrid Del 30-11-2026 al 02-12-2026 49 Minutos - Superarte Desde 16,65€ +INFO Madrid Del 08-01-2027 al 10-01-2027 Enowate - Dickson Mbi Desde 9,00€ +INFO Madrid Del 05-03-2027 al 07-03-2027 Goodbye Berlin - Constanza Macras Desde 9,00€ +INFO Del 06-05-2027 al 13-05-2027 Crystal Pite - Kidd Pivot Desde 9,00€ +INFO Madrid De"
+    "contexto": "El 05-12-2026 Tango Show Baile de los Campeones Desde 10,00€ +INFO"
   },
   "ea36699e9be4a9520de4b3ac3597c94445ef9a652611de546805414990ffd9e9": {
     "web": "Taquilla.com",
@@ -1751,5 +1751,11 @@
     "titulo": "El cascanueces - Teatro Colegio Mayor Elias Ahúja",
     "url": "https://www.taquilla.com/entradas/we-call-it-ballet",
     "contexto": "Del 12-12-2026 al 13-03-2027 We Call It Ballet Desde 14,80€ +INFO Del 26-11-2026 al 09-01-2027 El Cascanueces - Ballet de Kiev Desde 28,80€ +INFO Del 26-01-2027 al 21-02-2027 El lago de los cisnes – Ballet Clásico Internacional Desde 14,00€ +INFO Del 05-12-2026 al 21-03-2027 Ballet of Lights Desde 16,39€ +INFO Madrid Del 24-04-2027 al 25-04-2027 Don Quijote, el Ballet Desde 19,02€ +INFO Del 12-12-2026 al 14-02-2027 El Cascanueces - Royal Russian Ballet Desde 14,64€ +INFO Del 30-12-2026 al 28-02-2027 La Bella Durmiente - Ballet Clásico Internacional Desde 14,00€ +INFO Madrid Del 11-12-2026 al 13-12-2026 El Cascanueces - El Corral de Usera Desde 20,11€ +INFO Madrid Del 16-02-2027 al 21-02-2027 El lago de los cisnes - Tatiana Solovieva Producciones Desde 25,00€ +INFO Madrid El 20-12-2026 El cascanueces - Teatro Colegio Mayor Elias Ahúja Desde 20,00€ +INFO"
+  },
+  "0dff65edcc27db3b5272931e217198b4c917505a8af39a426b5caa1e7a3a845c": {
+    "web": "Taquilla.com",
+    "titulo": "Entradas Juana, si Estuvo Loca… no le Faltaron Motivos",
+    "url": "https://www.taquilla.com/entradas/juana-si-estuvo-locaa-no-le-faltaron-motivos",
+    "contexto": "Del 09-12-2026 al 17-12-2026 Entradas Juana, si Estuvo Loca… no le Faltaron Motivos Desde 10,00€ +INFO"
   }
 }
